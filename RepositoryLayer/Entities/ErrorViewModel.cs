@@ -1,4 +1,4 @@
-namespace HE180210_ThaiDuyPhong_Assignment2.Models
+namespace HE180210_ThaiDuyPhong_Assignment2.RepositoryLayer.Entities
 {
     public class ErrorViewModel
     {
