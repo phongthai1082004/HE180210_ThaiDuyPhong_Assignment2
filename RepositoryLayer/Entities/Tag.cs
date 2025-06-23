@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace HE180210_ThaiDuyPhong_Assignment2.RepositoryLayer.Entities;
+﻿namespace HE180210_ThaiDuyPhong_Assignment2.RepositoryLayer.Entities;
 
 public partial class Tag
 {
@@ -10,4 +7,6 @@ public partial class Tag
     public string? TagName { get; set; }
 
     public string? Note { get; set; }
+
+    public virtual ICollection<NewsArticle> NewsArticles { get; set; } = new List<NewsArticle>();
 }

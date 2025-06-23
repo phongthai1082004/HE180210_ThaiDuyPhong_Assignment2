@@ -19,8 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="RepositoryLayer\Categories\" />
-    <Folder Include="RepositoryLayer\Tags\" />
     <Folder Include="RepositoryLayer\NewsArticles\" />
     <Folder Include="UILayer\" />
   </ItemGroup>

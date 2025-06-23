@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace HE180210_ThaiDuyPhong_Assignment2.RepositoryLayer.Entities;
+﻿namespace HE180210_ThaiDuyPhong_Assignment2.RepositoryLayer.Entities;
 
 public partial class NewsArticle
 {
@@ -29,5 +26,7 @@ public partial class NewsArticle
 
     public virtual Category? Category { get; set; }
 
-    public virtual ICollection<NewsTag> NewsTags { get; set; } = new List<NewsTag>();
+    public virtual SystemAccount? CreatedBy { get; set; }
+
+    public virtual ICollection<Tag> Tags { get; set; } = new List<Tag>();
 }
